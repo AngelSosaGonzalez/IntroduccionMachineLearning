@@ -16,15 +16,6 @@ from sklearn.model_selection import train_test_split
 #Importamos nuestro algoritmo
 from sklearn.ensemble import RandomForestClassifier
 
-""" Importamos metricas de rendimiento: 
-- Matriz de confusión o error
-- Precisión
-- Recall o sensibilidad o TPR (Tasa positiva real)
-- Exactitud
-- Especificidad o TNR (Tasa negativa real)
-- F1-Score """
-from sklearn.metrics import confusion_matrix, precision_score, recall_score, accuracy_score
-
 #Comezamos con importar nuestras Datas
 #Data de entrenamiento
 DatosPokerTrain = pd.read_csv('ProyectosML/CartasPoker/Data/poker-hand-training-true.csv')
