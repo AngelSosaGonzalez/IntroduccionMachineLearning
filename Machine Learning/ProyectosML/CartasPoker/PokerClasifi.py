@@ -49,10 +49,10 @@ X = np.array(DatosPokerTrain.drop(['Mano'], 1))
 Y = np.array(DatosPokerTrain['Mano'])
 
 #Separamos nuestros datos en entrenamiento y prueba
-X_Entre, X_Prueba, Y_Entre, Y_Prueba = train_test_split(X, Y, test_size = 0.2)
+X_Entre, X_Prueba, Y_Entre, Y_Prueba = train_test_split(X, Y)
 
 #Teniendo estos datos definiremos nuestro algoritmo
-Algoritmo = RandomForestClassifier(max_depth=15)
+Algoritmo = RandomForestClassifier()
 #Su puntaje es muy bajo para realizar una prediccion pero es el algortmo con mas puntaje
 
 #Vamos a entrenar nuestro algoritmo
