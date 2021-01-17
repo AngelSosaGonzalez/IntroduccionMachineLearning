@@ -1,6 +1,6 @@
 """ Vamos a jugar Gato: Este es un proyecto de Machine Learnin donde en base a un juego de gato nuestro algoritmo sabra si ganamos o perdemos
-en un juego de gato, en este caso sera un juego de un solo jugador solo para realizar la prueba, si vemos nuestra data es un ptoblema de tipo de
-clasificacion, la clasificacion es que si portenecemos al grupo de ganar o perder
+en un juego de gato, en este caso sera un juego de un solo jugador solo para realizar la prueba, si vemos nuestra data es un problema de tipo de
+clasificacion, la clasificacion es que si pertenecemos al grupo de ganar o perder
 Data a utilizar: https://archive.ics.uci.edu/ml/machine-learning-databases/tic-tac-toe/ """
 
 #Vamos a comenzar importando los modulos necesarios
