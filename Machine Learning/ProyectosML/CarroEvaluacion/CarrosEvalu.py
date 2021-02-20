@@ -16,7 +16,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
 
 #Importamos nuestra Data
-DatosCarro = pd.read_csv('ProyectosML/CarroEvaluacion/Data/car.csv')
+DatosCarro = pd.read_csv('Machine Learning/ProyectosML/CarroEvaluacion/Data/car.csv')
 
 #Vemos el contenido de la data
 print(DatosCarro.head())#Contenido de la Data
